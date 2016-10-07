@@ -13,7 +13,7 @@ Commands
 
 dev     : Start a normal Django development server.
 bash    : Start a bash shell
-manage  : Starte manage.py
+manage  : Start manage.py
 lint    : Run pylint
 python  : Run a python command
 shell   : Start a Django Python shell.

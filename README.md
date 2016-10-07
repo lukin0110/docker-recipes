@@ -43,7 +43,7 @@ You can generate *ignore* statements with the
 * [Docker AWS CLI](https://github.com/lukin0110/docker-awscli): Amazon Web Services CLI Wrapped in a Docker image
 * [Docker VTK Python](https://github.com/lukin0110/docker-vtk-python): Docker image for Python projects with the VTK C++ library
 * [Docker Django Boilerplate](https://github.com/lukin0110/docker-django-boilerplate): Boilerplate project for Django projects
-* [Docker Slager](https://github.com/lukin0110/docker-slanger): Docker container for Slanger (a Pusher implementation)
+* [Docker Slanger](https://github.com/lukin0110/docker-slanger): Docker container for Slanger (a Pusher implementation)
 * [Docker Debian ARM Node.js](https://github.com/lukin0110/docker-debian-armhf-nodejs): Docker images for Node.js development on Debian with an ARM architecture
 * [Docker Libsodium](https://github.com/lukin0110/docker-libsodium): libsodium Dockerfile, libsodium is pre installed on an Ubuntu image
 
@@ -53,5 +53,7 @@ You can generate *ignore* statements with the
 * Version based on git latests hahs
 * debian packaging with fpm
 * boilerplate python/django
-* Angular2/React webapp flow
+* Angular2/React webapp flow (explain dev vs production containers)
 * Node.js entrypoint
+* container for openmesh & python
+
