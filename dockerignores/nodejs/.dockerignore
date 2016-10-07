@@ -1,0 +1,13 @@
+# Git
+.git
+.gitignore
+
+# Docker
+docker-compose.yml
+.docker
+
+# Node & ESLint
+node_modules
+.eslintrc
+.eslintrc.js
+.flowconfig

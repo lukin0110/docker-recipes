@@ -11,7 +11,7 @@ Feel free to copy/paste these snippets for your own projects. Open a
 [pull request](https://github.com/lukin0110/docker-recipes/pulls) if 
 you like to add or extend these snippets.
 
-## Entrypoints
+## Entrypoint files
 
 Entrypoints are a powerful feature in Docker. It has become a *De Facto*
 standard to add an `entrypoint.sh` file to your project. This allows 
@@ -21,7 +21,22 @@ you to define *commands* for your image.
 * [Python/Flask](entrypoints/flask-entrypoint.sh)
 * [Node.js](entrypoints/nodejs-entrypoint.sh)
 
+## .dockerignore files
 
+[Docker ignore](https://docs.docker.com/engine/reference/builder/#/dockerignore-file) 
+files avoid that you send too much crap to the docker daemon. Ever 
+wondered why your build is slow? or 'hangs'? Probably you're sending
+large files to the daemon. For example the *data* folder that used by 
+a database container.
+
+You can generate *ignore* statements with the 
+[https://www.gitignore.io/](https://www.gitignore.io/) tool.
+
+* [Django](dockerignores/django/.dockerignore)
+* [Python](dockerignores/python/.dockerignore)
+* [Node.js](dockerignores/nodejs/.dockerignore)
+* [Editors](dockerignores/editors/.dockerignore)
+* [Operating Systems](dockerignores/os/.dockerignore)
 
 ## Other Dockerfile repositories
 
@@ -32,3 +47,11 @@ you to define *commands* for your image.
 * [Docker Debian ARM Node.js](https://github.com/lukin0110/docker-debian-armhf-nodejs): Docker images for Node.js development on Debian with an ARM architecture
 * [Docker Libsodium](https://github.com/lukin0110/docker-libsodium): libsodium Dockerfile, libsodium is pre installed on an Ubuntu image
 
+## TODO
+
+* Release artifacts on on s3
+* Version based on git latests hahs
+* debian packaging with fpm
+* boilerplate python/django
+* Angular2/React webapp flow
+* Node.js entrypoint

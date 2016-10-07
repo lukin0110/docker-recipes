@@ -1,0 +1,11 @@
+# Git
+.git
+.gitignore
+
+# Docker
+docker-compose.yml
+.docker
+
+# Python
+*.pyc
+__pycache__
