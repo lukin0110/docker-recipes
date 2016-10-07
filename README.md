@@ -2,7 +2,7 @@
 
 Over the past years i've been using Docker heavily in a lot of projects.
 On [Docker Hub](https://hub.docker.com/) you can find a lot of useful
-base images to start with. But ofter you want to do more with your 
+base images to start with. But often you want to do more with your 
 image. You can only inherit from 1 image. I copy/paste snippets
 from other projects to get things done. In this repo I try to organize
 snippets/hacks that I use a lot.
@@ -17,7 +17,7 @@ Entrypoints are a powerful feature in Docker. It has become a *De Facto*
 standard to add an `entrypoint.sh` file to your project. This allows 
 you to define *commands* for your image. 
 
-* [Python/Django](entrpoints/django-entrypoint.sh)
+* [Python/Django](entrypoints/django-entrypoint.sh)
 * [Python/Flask](entrypoints/flask-entrypoint.sh)
 * [Node.js](entrypoints/nodejs-entrypoint.sh)
 
@@ -35,8 +35,8 @@ You can generate *ignore* statements with the
 * [Django](dockerignores/django/.dockerignore)
 * [Python](dockerignores/python/.dockerignore)
 * [Node.js](dockerignores/nodejs/.dockerignore)
-* [Editors](dockerignores/editors/.dockerignore)
-* [Operating Systems](dockerignores/os/.dockerignore)
+* [Editors](dockerignores/editors/.dockerignore): avoid project & editor files. E.g: PyCharm, Vim
+* [Operating Systems](dockerignores/os/.dockerignore): avoid Operating System files from Windows, OSX, Linux
 
 ## Other Dockerfile repositories
 
