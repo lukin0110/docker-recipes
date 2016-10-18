@@ -2,6 +2,9 @@
 #
 # Example of an entrypoint for Python/Django apps
 #
+
+# Exit immediately if a command exits with a non-zero status.
+# http://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script
 set -e
 
 # Define help message
