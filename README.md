@@ -54,11 +54,8 @@ Docker Cloud. Check out [this recipe](https://github.com/lukin0110/docker-recipe
 
 ## TODO
 
-* Release artifacts on on s3
 * Version based on git latests hahs
 * debian packaging with fpm
-* boilerplate python/django
-* Angular2/React webapp flow (explain dev vs production containers)
 * Node.js entrypoint
 * container for openmesh & python
 * sphinx images (entrypoint, onbuild, nginx)
