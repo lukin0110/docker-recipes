@@ -38,6 +38,11 @@ You can generate *ignore* statements with the
 * [Editors](dockerignores/editors/.dockerignore): avoid project & editor files. E.g: PyCharm, Vim
 * [Operating Systems](dockerignores/os/.dockerignore): avoid Operating System files from Windows, OSX, Linux
 
+## Automatically build and deploy WebApps
+
+Build & deploy React or Angular2 apps automatically with Docker Hub and 
+Docker Cloud. Check out [this recipe](https://github.com/lukin0110/docker-recipe-deploywebapp).
+
 ## Other Dockerfile repositories
 
 * [Docker AWS CLI](https://github.com/lukin0110/docker-awscli): Amazon Web Services CLI Wrapped in a Docker image
@@ -56,4 +61,7 @@ You can generate *ignore* statements with the
 * Angular2/React webapp flow (explain dev vs production containers)
 * Node.js entrypoint
 * container for openmesh & python
+* sphinx images (entrypoint, onbuild, nginx)
+* nodejs boilerplate
+
 
