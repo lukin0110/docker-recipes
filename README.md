@@ -47,6 +47,7 @@ Docker Cloud. Check out [this recipe](https://github.com/lukin0110/docker-recipe
 
 * [Docker AWS CLI](https://github.com/lukin0110/docker-awscli): Amazon Web Services CLI Wrapped in a Docker image
 * [Docker VTK Python](https://github.com/lukin0110/docker-vtk-python): Docker image for Python projects with the VTK C++ library
+* [Docker OpenCV Python](https://github.com/TheWebMonks/docker-opencv-python): Docker image for Python projects with OpenCV
 * [Docker Django Boilerplate](https://github.com/lukin0110/docker-django-boilerplate): Boilerplate project for Django projects
 * [Docker Slanger](https://github.com/lukin0110/docker-slanger): Docker container for Slanger (a Pusher implementation)
 * [Docker Debian ARM Node.js](https://github.com/lukin0110/docker-debian-armhf-nodejs): Docker images for Node.js development on Debian with an ARM architecture
@@ -54,11 +55,12 @@ Docker Cloud. Check out [this recipe](https://github.com/lukin0110/docker-recipe
 
 ## TODO
 
+* simple CV met c++ & python
+* openmesh met c++ & python
+
 * Version based on git latests hahs
 * debian packaging with fpm
 * Node.js entrypoint
 * container for openmesh & python
 * sphinx images (entrypoint, onbuild, nginx)
 * nodejs boilerplate
-
-
